@@ -1,7 +1,5 @@
 package com.driver;
 
-import lombok.*;
-import lombok.experimental.FieldDefaults;
 
 public class User {
     private String name;

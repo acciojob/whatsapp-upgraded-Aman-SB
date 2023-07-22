@@ -24,4 +24,16 @@ public class Message {
     public Date getTimestamp() {
         return timestamp;
     }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
+
+    public void setTimestamp(Date timestamp) {
+        this.timestamp = timestamp;
+    }
 }
