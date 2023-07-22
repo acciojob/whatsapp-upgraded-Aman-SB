@@ -59,7 +59,7 @@ public class WhatsappRepository {
     }
 
     public int createMessage(String content){
-        Message message = new Message(messageId, content, Timestamp.from(Instant.now()));
+        Message message = new Message(messageId, content);
         messageId++;
         return message.getId();
     }
